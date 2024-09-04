@@ -50,9 +50,9 @@ body {
     height: 100%;
 }
 .nav-links{
-    background-color: aquamarine;
-    margin-right: 100px;
-    width: 70%;
+    /* background-color: aquamarine; */
+    margin-right: 50px;
+    width: 90%;
 }
 .nav-links a {
     margin: 0 10px;
@@ -68,8 +68,8 @@ body {
 .search-cart {
     display: flex;
     align-items: center;
-    background-color: aqua;
-    width: 50%;
+    /* background-color: aqua; */
+    width: 40%;
 }
 
 .search-cart input {
@@ -88,15 +88,25 @@ body {
     color: #333;
     margin-right: 10px;
     font-weight: bold;
-    width: 10%;
+    width: 100px;
+    margin-bottom: 10px;
     height: 50px;
-    background-color: #e0a800;
+    /* background-color: #e0a800; */
 }
-/* .express-delivery img{
+.express-delivery img{
+    width: 115%;
+    height: 70px;
+}
+.ab-logo{
+    margin-left: 35px;
+    /* background-color: blueviolet; */
+    width: 100px;
+    height: 60px;
+}
+.ab-logo img{
     width: 100%;
-    height: 100%;
-} */
-
+    height: 60px;
+}
 
 .express-delivery:hover {
     background-color: #e0a800;
