@@ -42,42 +42,45 @@
         </div>
     </div>
 
-    <div class="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="/images/carousel-img2.jpg" alt="Handbag 1">
-            </div>
-            <div class="carousel-item">
-                <img src="/images/carousel-img1.jpg" alt="Handbag 2">
-            </div>
-            <div class="carousel-item">
-                <img src="/images/carousel-img3.jpg" alt="Handbag 2">
-                
-            </div>
-            <div class="carousel-item">
-                <img src="/images/carousel-img4.jpg" alt="Handbag 2">
-                
-            </div>
+    <div class="container-fluid">
+        <div class="row-fluid">
+        <div class="span12">
+                       
+            <div class="carousel slide" id="myCarousel">
+                <div class="carousel-inner">
+         
+                    <div class="item active">
+                        <div class="bannerImage">
+                            <a href="#"><img src="/images/carousel-img1.jpg" alt=""></a>
+                        </div>                                                                 
+                    </div><!-- /Slide1 --> 
 
-            <div class="carousel-item">
-                <img src="/images/carousel-img5.jpg" alt="Handbag 2">
-               
-            </div>
-
-            <div class="carousel-item">
-                <img src="/images/carousel-img6.jpg" alt="Handbag 2">
+                    <div class="item">
+                        <div class="bannerImage">
+                            <a href="#"><img src="/images/carousel-img2.jpg" alt=""></a>
+                        </div>                                         
+                    </div><!-- /Slide2 -->             
+        
+                    <div class="item">
+                        <div class="bannerImage">
+                            <a href="#"><img src="/images/carousel-img3.jpg" alt=""></a>
+                        </div>                                         
+                    </div><!-- /Slide2 -->                      
+         
+                </div>
                 
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#" role="button" onclick="prevSlide()">
-            <span class="prev-icon">&lt;</span>
-        </a>
-        <a class="carousel-control-next" href="#" role="button" onclick="nextSlide()">
-            <span class="next-icon">&gt;</span>
-        </a>
-    </div>
+                <div class="control-box">                            
+                    <a data-slide="prev" href="#myCarousel" class="carousel-control left">‹</a>
+                    <a data-slide="next" href="#myCarousel" class="carousel-control right">›</a>
+                </div><!-- /.control-box -->   
+                                      
+            </div><!-- /#myCarousel -->
+                
+        </div><!-- /.span12 -->          
+        </div><!-- /.row --> 
+        </div><!-- /.container -->
 
-    <div class="container">
+    <div class="container2">
         <div class="categories">
             <div class="category-item">
                 <div class="circle yellow">
@@ -87,31 +90,31 @@
             </div>
             <div class="category-item">
                 <div class="circle">
-                    <img src="men.jpg" alt="Men">
+                    <img src="/images/con2-man.jpg" alt="Men">
                 </div>
                 <p>MEN</p>
             </div>
             <div class="category-item">
                 <div class="circle">
-                    <img src="women.jpg" alt="Women">
+                    <img src="/images/con2-woman.jpg" alt="Women">
                 </div>
                 <p>WOMEN</p>
             </div>
             <div class="category-item">
                 <div class="circle">
-                    <img src="boys.jpg" alt="Boys">
+                    <img src="/images/con2-boy.jpg" alt="Boys">
                 </div>
                 <p>BOYS</p>
             </div>
             <div class="category-item">
                 <div class="circle">
-                    <img src="girls.jpg" alt="Girls">
+                    <img src="/images/con2-girl.jpg" alt="Girls">
                 </div>
                 <p>GIRLS</p>
             </div>
             <div class="category-item">
                 <div class="circle">
-                    <img src="giftcards.jpg" alt="Gift Cards">
+                    <img src="/images/con2-gift card.jpg" alt="Gift Cards">
                 </div>
                 <p>GIFT CARDS</p>
             </div>
@@ -121,6 +124,6 @@
         </div>
     </div>
 
-    <script src="/js/js-ques.js"></script>
+    <script src="/js/js-carousel.js"></script>
 </body>
 </html>
