@@ -414,7 +414,7 @@ nav ul li a {
     flex: 1;
     height: 500px;
     margin-left: 100px;
-    background-color: #ff5a5a;
+    /* background-color: #ff5a5a; */
 }
 
 .arrivals-img {
@@ -714,7 +714,6 @@ nav ul li a {
 
 /* Media Queries for Responsiveness */
 
-/* Tablets */
 @media (max-width: 1024px) {
     .con {
         flex-direction: column;
@@ -735,7 +734,6 @@ nav ul li a {
     }
 }
 
-/* Mobile */
 @media (max-width: 768px) {
     .promo-section {
         width: 80%;
@@ -758,7 +756,6 @@ nav ul li a {
     }
 }
 
-/* Small Mobile */
 @media (max-width: 480px) {
     .promo-section {
         width: 90%;
@@ -800,7 +797,8 @@ nav ul li a {
     color:  #ffd700;
 }
 .referral-content .icon {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin-top: 20px;
 }
 
 .referral-content span {
@@ -822,6 +820,7 @@ nav ul li a {
     cursor: pointer;
     font-weight:500;
     width: 15%;
+    margin-left: 20px;
 }
 
 /* Store Locator Section */
@@ -840,19 +839,33 @@ nav ul li a {
 .locator-content {
     position: relative;
     z-index: 2;
+    margin-left: 250px;
+    display: flex;
+    text-align: center;
 }
-
+.locator-content img{
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+}
 .locator-content h2 {
     color: #002060;
     font-size: 2rem;
-    font-weight: bold;
+    font-weight:500;
+    margin-top: 20px;
 }
-
 .store-locator {
     margin-top: 10px;
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-left: 20px;
+}
+.str-input label{
+    position: absolute;
+    top: 25px;
+    left: 46%;
+    /* background-color: #002060; */
 }
 
 .store-locator input {
@@ -860,6 +873,7 @@ nav ul li a {
     border: 1px solid #002060;
     border-radius: 5px;
     width: 300px;
+    background-color: transparent;
 }
 
 .show-btn {
@@ -868,7 +882,8 @@ nav ul li a {
     color: #002060;
     text-decoration: underline;
     cursor: pointer;
-    font-weight: bold;
+    font-weight:400;
+    font-size:small;
 }
 
 /* View Products Section */
@@ -876,7 +891,7 @@ nav ul li a {
     text-align: center;
     padding: 20px;
     background-color:white;
-    margin-top: 40px;
+    margin-top: 20px;
     width: 95%;
     margin-left: 38px;
 }
