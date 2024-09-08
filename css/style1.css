@@ -217,20 +217,24 @@ height: 60px;
 
 .categories {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 30px;
+    justify-content: center;
+    gap: 30px;
 }
 
 .category-item {
     text-align: center;
+    margin: 0; 
+    padding: 0; 
 }
 
 .circle {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
+    margin: 0; 
+    padding: 0; 
 }
 
 .circle img {
@@ -256,7 +260,7 @@ height: 60px;
     width: 80%;
     width: 100%;
 }
-
+/*-------------------------------------------------*/
 /* Online Exclusive Collections Styles */
 .online-collections {
     text-align: center;
@@ -558,11 +562,11 @@ nav ul li a {
 .new-arrivals {
     margin-top: 10px;
     position: relative;
-    flex: 1;
+    flex: 2; 
     height: 500px;
     margin-left: 100px;
-    /* background-color: #ff5a5a; */
 }
+
 
 .arrivals-img {
     width: 100%;
@@ -588,10 +592,11 @@ nav ul li a {
 }
 
 .arrivals-content img {
-    width: 15%;
+    width: 10%;
+    height: 60px;
     position: absolute;
     top: 15%;
-    left: 30%;
+    left: 34%;
 }
 
 .shop-now-btn {
