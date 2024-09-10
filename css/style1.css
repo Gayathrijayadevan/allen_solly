@@ -191,7 +191,7 @@ height: 60px;
     }
 }
 
-/* Media queries for responsiveness if necessary */
+/* Media queries for responsiveness  */
 @media screen and (max-width: 768px) {
     .top-bar {
         flex-direction: column;
@@ -942,18 +942,12 @@ nav ul li a {
 }
 
 .referral-content {
-    display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.re {
-    color: #ffd700;
-}
-
 .referral-content .icon {
     font-size: 2rem;
-    margin-top: 20px;
 }
 
 .referral-content span {
@@ -962,7 +956,7 @@ nav ul li a {
 }
 
 .referral-content p {
-    margin-left: 15px;
+    margin-left: 55px;
     font-size: 0.9rem;
 }
 
